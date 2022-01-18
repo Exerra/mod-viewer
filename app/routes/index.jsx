@@ -19,8 +19,10 @@ export let loader = ({params}) => {
 		}
 	]
 
+	let skyrimSE = []
 
-    return {falloutNV}
+
+    return {falloutNV, skyrimSE}
 }
 
 export default function Index() {
