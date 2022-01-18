@@ -17,7 +17,11 @@ export let links = () => {
 }
 
 export function meta() {
-	return {title: "New Remix App"};
+	return {
+		title: "Exerra's mods",
+		description: "View every mod by Exerra",
+		"theme-color": "#EFF5FB"
+	};
 }
 
 export default function App() {
