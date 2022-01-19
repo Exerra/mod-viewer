@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Other/react/karen-bot-profile/.idea/karen-bot-profile.iml" filepath="$PROJECT_DIR$/../../Other/react/karen-bot-profile/.idea/karen-bot-profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mod-website.iml" filepath="$PROJECT_DIR$/.idea/mod-website.iml" />
     </modules>
   </component>

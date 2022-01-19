@@ -215,6 +215,27 @@ input:where([type="search"]) {
   background-color: white;
 }
 
+.title {
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 24px;
+  background-color: white;
+}
+
+.imageSection {
+  gap: 1rem;
+  border-radius: 24px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.imageSection img {
+  border-radius: 24px;
+}
+
+
 .section {
   gap: 1rem;
   /*padding: 1rem;*/
@@ -230,6 +251,10 @@ input:where([type="search"]) {
 .section .content {
   padding: 1rem;
   padding-top: 0px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .clickable:hover {

@@ -7,14 +7,14 @@ export let loader = ({params}) => {
 			name: "Clean Mojave Outpost",
 			description: "Removes the cars from the Mojave Outpost.",
 			image: "https://cdn.exerra.xyz/games/mods/fnv/exerra/CleanMojaveOutpost/thumbnail.png",
-			link: "https://cdn.exerra.xyz/games/mods/fnv/exerra/CleanMojaveOutpost/CleanMojaveOutpost_1.0.zip",
+			link: "/mod/cleanMojaveOutpost",
 			lastUpdated: "26 Jul 2019"
 		},
 		{
 			name: "Easy Start LR",
 			description: "Footlocker with Lonesome Road items",
 			image: "https://cdn.exerra.xyz/games/mods/fnv/exerra/EasyStartLR/thumbnail.png",
-			link: "https://cdn.exerra.xyz/games/mods/fnv/exerra/EasyStartLR/EasyStartLR_1.0.zip",
+			link: "/mod/easyStartLR",
 			lastUpdated: "25 Jul 2019"
 		}
 	]
