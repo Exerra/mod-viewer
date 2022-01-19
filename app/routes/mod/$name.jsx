@@ -62,6 +62,11 @@ export let meta = (loader) => {
 		"twitter:site": "@Exerra",
 		"twitter:title": title,
 		"twitter:description": description,
+		"og:type": "website",
+		"og:site_name": "Exerra's mods",
+		"og:title": title,
+		"og:description": description,
+		"og:image": data.image
 	}
 
 	return metaObj
