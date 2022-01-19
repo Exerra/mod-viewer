@@ -38,17 +38,19 @@ export let loader = ({ params }) => {
 	}
 
 
-	return data
+	return {status: 404}
 }
 
 export let meta = (loader) => {
 	let data = loader.data
 	let metaObj = {}
 
+	if (data.status != undefined) {
+		return
+	}
+
 	let title = data.longName
 	let description = data.shortDescription
-
-	console.log(data.image)
 
 	metaObj = {
 		title: title,
@@ -98,4 +100,19 @@ export default function mod() {
 			<img className={"imageSection"} src={data.image} alt={"Thumbnail"} style={{ padding: "0", margin: "0" }} />
 		</>
 	)
+}
+
+export function ErrorBoundary({ error }) {
+	return (
+		<div className="remix__page">
+			<main>
+				<div className={"section"}>
+					<h1>
+						Mod could not be found
+					</h1>
+				</div>
+
+			</main>
+		</div>
+	);
 }
