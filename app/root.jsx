@@ -64,7 +64,7 @@ function Layout({children}) {
 					<nav aria-label="Main navigation" className="remix-app__header-nav">
 						<ul>
 							<li>
-								<Link to="/">Home</Link>
+								<a href="/">Home</a>
 							</li>
 							<li>
 								<a href="https://www.nexusmods.com/users/69659473?tab=user+files">View on Nexus</a>
