@@ -67,7 +67,7 @@ function Layout({children}) {
 								<a href="/">Home</a>
 							</li>
 							<li>
-								<a href="https://www.nexusmods.com/users/69659473?tab=user+files">View on Nexus</a>
+								<a href="https://www.nexusmods.com/users/69659473?tab=user+files">Nexus</a>
 							</li>
 						</ul>
 					</nav>
