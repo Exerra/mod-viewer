@@ -33,7 +33,7 @@ export let loader = ({ params }) => {
 			longName: "Ring of Godly Eyes",
 			game: "The Elder Scrolls III: Morrowind",
 			shortDescription: "See through the eyes of the Khajiiti people",
-			description: "Forged in the distant land of Elsweyr, this ring grants the wearer the eyes of Khajiit. Originally made for a friend, it has now been confiscated and put in the Census office's small chest next to Socucius Ergalla.",
+			description: "Forged in the distant land of Elsweyr, this ring grants the wearer the eyes of Khajiit. Originally made for a close friend, it has now been confiscated and put in the Seyda Neen Census office's small chest next to Socucius Ergalla.",
 			install: "Use your mod manager of choice or drop in the \"Data Files\" folder",
 			image: "https://cdn.exerra.xyz/games/mods/morrowind/exerra/ringOfGodlyEyes/thumbnail.png",
 			link: "https://cdn.exerra.xyz/games/mods/morrowind/exerra/ringOfGodlyEyes/ringOfGodlyEyes_1.0.zip",
