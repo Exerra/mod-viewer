@@ -123,7 +123,7 @@ export function ErrorBoundary({ error }) {
 	return (
 		<div className="remix__page">
 			<main>
-				<div className={"section"}>
+				<div className={"title"}>
 					<h1>
 						Mod could not be found
 					</h1>
