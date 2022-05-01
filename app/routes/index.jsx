@@ -27,6 +27,13 @@ export let loader = ({params}) => {
 			image: "https://cdn.exerra.xyz/games/mods/morrowind/exerra/ringOfGodlyEyes/thumbnail.png",
 			link: "/mod/ringOfGodlyEyes",
 			lastUpdated: "24 Jan 2022"
+		},
+		{
+			name: "Skip census office",
+			description: "Lets you skip that darn office",
+			image: "https://cdn.exerra.xyz/games/mods/morrowind/exerra/skipCensusOffice/thumbnail.png",
+			link: "/mod/skipCensusOffice",
+			lastUpdated: "1 May 2022"
 		}
 	]
 

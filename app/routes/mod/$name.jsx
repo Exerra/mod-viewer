@@ -39,6 +39,18 @@ export let loader = ({ params }) => {
 			link: "https://cdn.exerra.xyz/games/mods/morrowind/exerra/ringOfGodlyEyes/ringOfGodlyEyes_1.0.zip",
 			lastUpdated: "24 Jan 2022",
 			version: "1.0"
+		},
+		{
+			name: "skipCensusOffice",
+			longName: "Skip census office",
+			game: "The Elder Scrolls III: Morrowind",
+			shortDescription: "Lets you skip that darn office",
+			description: "Tired of going thru that darn office all the time? This mod lets you skip that. Unintended sideffects may include: No birthsign, no class, no start weapon, no health ring",
+			install: "Use your mod manager of choice or drop in the \"Data Files\" folder",
+			image: "https://cdn.exerra.xyz/games/mods/morrowind/exerra/skipCensusOffice/thumbnail.png",
+			link: "https://cdn.exerra.xyz/games/mods/morrowind/exerra/skipCensusOffice/skipCensusOffice1.0.zip",
+			lastUpdated: "1 May 2022",
+			version: "1.0"
 		}
 	]
 
